@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="location.html">LOCATION</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="reserve.html">RESERVE</a></li>
+        <li><a href="online.html">ORDER ONLINE</a></li>
+    </ul>
+</nav>
+<br><br>
+<div class="form-container">
+    <h2>Prefer it delivered to your doorstep?</h2>
+
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required>
+        <br>
+        <label for="lname">Surname</label>
+        <input type="text" id="lname" name="lname" required>
+        <br><br>
+        <label>Would you like your order spicy?</label>
+        <br>
+        <input type="radio" id="yes" name="special-needs">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="special-needs">
+        <label for="no">No</label>
+        <br>
+        <label for="specify">Specific orders?:</label>
+        <input type="text" id="specify" name="special-needs" placeholder="Type it here">
+        <br><br>
+        <label for="address">Where would you like it delivered?</label>
+        <input type="text" id="address" name="address">
+        <br><br>
+        <label>Any special landmarks?</label>
+        <br>
+        <input type="radio" id="landmarks" name="landmarks" value="no">
+        <label for="landmarks">Yes</label>
+        <input type="radio" id="landmarks" name="landmarks" value="yes">
+        <label for="landmarks">No</label>
+        <br>
+        <label for="landmarks">If any:</label>
+        <input type="text" id="landmarks" placeholder="Type it here" name="landmark">
+        <br><br><br>
+        <a href="post-online.html"><input type="submit" value="Order" class="button"></a>
+    </form>
+    <br><br>
+
+</div>
+</body>
+</html>

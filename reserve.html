@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reserve a Table</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="location.html">LOCATION</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="reserve.html">RESERVE</a></li>
+        <li><a href="online.html">ORDER ONLINE</a></li>
+    </ul>
+</nav>
+<br><br>
+<div class="form-container">
+    <form action="">
+        <h1>Make a reservation</h1>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required>
+        <br>
+        <label for="lname">Surname</label>
+        <input type="text" id="lname" name="lname" required>
+        <br><br>
+        <label for="date">When is your visit?</label>
+        <input type="datetime-local" id="date" required>
+        <br><br>
+        <label for="population">How many people are you reserving for?</label>
+        <input type="number" id="population" name="pax" min="1" max="10" required>
+        <br><br>
+        <label>Any guest needing special attention(Baby chair, wheelchair etc.)?</label>
+        <br>
+        <input type="radio" id="yes" name="special-needs">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="special-needs">
+        <label for="no">No</label>
+        <br>
+        <label for="specify">If so:</label>
+        <input type="text" id="specify" name="special-needs" placeholder="Type it here">
+        <br><br><br>
+        <input type="submit" value="reserve" class="button">
+    </form>
+</div>
+</body>
+</html>

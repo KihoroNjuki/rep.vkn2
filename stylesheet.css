@@ -1,0 +1,160 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #CB857C;
+    justify-content: space-between;
+    border-radius: 250px;
+    box-shadow: 0 0 10px black;
+}
+
+li a {
+    text-decoration: none;
+    float: left;
+    padding-inline: 120px;
+    padding-block: 40px;
+    overflow: hidden;
+    display: inline;
+    color: white;
+    font-family: "Gill Sans Ultra Bold";
+    justify-content: space-between;
+}
+
+li a:hover {
+    background-color: maroon;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: #9C2D41;
+
+}
+
+body {
+    background: url("assets/images/restaurantpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+h1 {
+    font-family: Dubai;
+    font-size: 60px;
+
+}
+
+button {
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #F6CBB7;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.index-content {
+    background-color: #F6CBB7;
+    width: 1000px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+#menu-container {
+    background-color: #F6CBB7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+
+}
+
+.price {
+    background-color: #9C2D41;
+    color: #F6CBB7;
+}
+
+.form-container {
+    display: block;
+    background-color: #F6CBB7;
+    margin: 0;
+    border-radius: 1%;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 0 10px black;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+
+}
+
+.quaint {
+    font-size: 20px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+#menu-head {
+    text-decoration: underline;
+}
+
+.button {
+    color: #9C2D41;
+    text-decoration: none;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button:hover {
+    color: #F6CBB7;
+    background-color: #9C2D41;
+    border-radius: 5px;
+    box-shadow: 0 0 black 3px;
+}
+
+.iframe {
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    background-color: #F6CBB7;
+}
+.table-container{
+    border: 1px solid #CB857C;
+    background-color: #9C2D41;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+}
+td{
+    color: #F6CBB7;
+    text-align: center;
+}
+#button-container{
+    justify-content: center;
+    margin-left: 40%;
+}
